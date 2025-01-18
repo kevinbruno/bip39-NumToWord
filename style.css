@@ -1,0 +1,36 @@
+* {
+    box-sizing: none;
+    border-spacing: none;
+    margin: 0;
+    padding: 0;
+}
+body {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+}
+#mom {
+    min-width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+section div {
+    display: flex;
+    gap: 15px;
+}
+
+#loadWords {
+    padding: 20px;
+    font-size: large;
+}
